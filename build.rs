@@ -8,6 +8,7 @@ fn main() {
         .include("bitshuffle")
         .file("bitshuffle/src/bitshuffle.c")
         .file("bitshuffle/src/bitshuffle_core.c")
+        .file("bitshuffle/src/iochain.c")
         .file("bitshuffle/lz4/lz4.c")
         .define("BSHUF_VERSION_MAJOR", "0")
         .define("BSHUF_VERSION_MINOR", "5")
