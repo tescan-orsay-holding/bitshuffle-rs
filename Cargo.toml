@@ -1,6 +1,6 @@
 [package]
 name = "bitshuffle-rs"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2024"
 build = "build.rs"
 license = "MIT"
@@ -9,4 +9,4 @@ license = "MIT"
 name = "bitshuffle_rs"
 
 [build-dependencies]
-cc = "1.2"
+cc = "1.11"
